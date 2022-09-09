@@ -1,0 +1,29 @@
+[
+  {
+    "url": "https://github.com/CrowdStrike/falcon-operator",
+    "name": "falcon-operator",
+    "language": "Go",
+    "description": "The CrowdStrike Falcon Operator deploys CrowdStrike Falcon Workload Protection\nto the cluster. The operator exposes 2 custom resources that allows you to deploy\neither the Falcon Container Sensor or Falcon Node Sensor.\n",
+    "fullName": "CrowdStrike/falcon-operator",
+    "stars": 19,
+    "forks": 14
+  },
+  {
+    "url": "https://github.com/CrowdStrike/ember-browser-services",
+    "name": "ember-browser-services",
+    "language": "TypeScript",
+    "description": "A collection of Ember Services that allow for consistent and convenient interaction with browser APIs,\nall powered by ember-window-mock.\nWhen all browser APIs are accessed via services, browser behavior is stubbable in unit tests.\n",
+    "fullName": "CrowdStrike/ember-browser-services",
+    "stars": 42,
+    "forks": 7
+  },
+  {
+    "url": "https://github.com/CrowdStrike/falconpy",
+    "name": "falconpy",
+    "language": "Python",
+    "description": "The FalconPy SDK contains a collection of Python classes that abstract\nCrowdStrike Falcon OAuth2 API interaction, removing duplicative code\nand allowing developers to focus on just the logic of their solution requirements.\n",
+    "fullName": "CrowdStrike/falconpy",
+    "stars": 137,
+    "forks": 50
+  }
+]

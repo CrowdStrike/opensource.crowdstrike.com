@@ -1,0 +1,9 @@
+{{#each this.data as |project|}}
+  <GitHubInfo
+    @title={{project.name}}
+    @stars={{project.stars}}
+    @forks={{project.forks}}
+    @url={{project.url}}
+    @description={{project.description}}
+  />
+{{/each}}

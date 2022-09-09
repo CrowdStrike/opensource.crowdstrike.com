@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ * Brand styles are not "default toucan" as brand usage is special cased and fairly protected.
+ */
+@layer base {
+  .bg-brand-idle {
+    background: #D31912;
+  }
+  .bg-brand-hover {
+    background: #ED4435;
+  }
+  .bg-brand-pressed {
+    background: #B50119;
+  }
+}
+
+@layer components {
+  .interactive-brand {
+    @apply bg-brand-idle;
+    @apply shadow-base;
+    @apply text-nav-text-and-icons;
+  }
+
+  .interactive-brand:not(.interactive-disabled):focus-visible {
+    @apply bg-brand-hover;
+  }
+
+  .interactive-brand:not(.interactive-disabled):hover {
+    @apply bg-brand-hover;
+    @apply shadow-md;
+  }
+
+  .interactive-brand:not(.interactive-disabled):active {
+    @apply bg-brand-pressed;
+    @apply shadow-inner-md;
+  }
+}

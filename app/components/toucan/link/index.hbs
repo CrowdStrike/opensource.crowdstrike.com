@@ -1,0 +1,20 @@
+{{#if @disabled}}
+  <span
+    aria-disabled="true"
+    class={{this.disabledStyle}}
+    role="link"
+    tabindex="0"
+    ...attributes
+  >
+    {{yield}}
+  </span>
+{{else}}
+  <A
+    class={{this.style}}
+    @href={{@href}}
+    ...attributes
+  >
+
+    {{yield}}
+  </A>
+{{/if}}

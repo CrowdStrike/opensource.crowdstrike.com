@@ -1,0 +1,20 @@
+<section class="even:bg-surface-inner" ...attributes>
+  <div class="max-w-screen-2xl mx-auto p-20 grid gap-9">
+    <header>
+      <h2 class="type-3xl">
+        {{yield to="header"}}
+      </h2>
+    </header>
+
+    <p class="type-lg flex gap-5 columns-3">
+      {{yield to="content"}}
+    </p>
+
+
+    {{#if (has-block "footer")}}
+      <footer class="flex gap-5 columns-3">
+        {{yield to="footer"}}
+      </footer>
+    {{/if}}
+  </div>
+</section>

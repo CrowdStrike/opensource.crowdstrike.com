@@ -1,0 +1,15 @@
+<section class="grid gap-3">
+  <h3 class="type-xl">
+    {{yield to="header"}}
+  </h3>
+
+  <p class="type-md">
+    {{yield to="content"}}
+  </p>
+
+  {{#if (has-block "footer")}}
+    <footer>
+      {{yield to="footer"}}
+    </footer>
+  {{/if}}
+</section>
