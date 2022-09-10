@@ -6,6 +6,10 @@
 # the ones from the API are usually too short -- the blurb on the upper-right hand side
 # under "About"
 #
+# Available project config keys
+#  - github: the `username/repo` pair, joined by a slash
+#  - description: manual text about the featured package
+#
 featured_projects:
   - github: CrowdStrike/falcon-operator
     description: |

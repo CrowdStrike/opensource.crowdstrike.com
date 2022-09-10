@@ -1,6 +1,18 @@
 {
   "name": "monorepo-root",
   "private": true,
+  "scripts": {
+    "build": "node ./build/index.js",
+    "start": "pnpm run --filter oss start"
+  },
+  "pnpm": {
+    "overrides": {
+      "@types/eslint": "^7.0.0"
+    },
+    "notes": {
+      "@types/eslint": "webpack brings in too new of types"
+    }
+  },
   "volta": {
     "node": "18.6.0"
   }

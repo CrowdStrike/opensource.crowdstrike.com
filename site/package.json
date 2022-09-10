@@ -107,17 +107,6 @@
     "ember-browser-services": "^4.0.3",
     "ember-url-hash-polyfill": "^1.0.8"
   },
-  "pnpm": {
-    "overrides": {
-      "@types/eslint": "^7.0.0",
-      "ember-sortable": "^4.0.0"
-    },
-    "notes": {
-      "@types/eslint": "webpack brings in too new of types",
-      "ember-sortable": "@crowdstrike/ui is still on 2.4, which has incompatible dependencies"
-    },
-    "patchedDependencies": {}
-  },
   "volta": {
     "node": "18.6.0"
   }

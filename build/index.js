@@ -56,7 +56,7 @@ async function loadProjects(config) {
 }
 
 async function writeAppJson(projects) {
-  const appPath = path.join(__dirname, '../oss/app/components/featured/projects.json');
+  const appPath = path.join(__dirname, '../site/app/components/featured/projects.json');
 
   await fs.writeFile(appPath, JSON.stringify(projects, null, 2));
 }

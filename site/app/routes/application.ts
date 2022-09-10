@@ -8,5 +8,11 @@ export default class Application extends Route {
 
   beforeModel() {
     this.themeManager.setup(THEMES.LIGHT);
+    /**
+     * When working on multiple projcets running on the same localhost:port,
+     * we can accidentally persist a theme preference between projects.
+     * This project is light-mode only, so we force the theme to be light-mode
+     */
+    this.themeManager.forceSelectTheme(THEMES.LIGHT);
   }
 }
