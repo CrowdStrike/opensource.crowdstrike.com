@@ -22,8 +22,9 @@ importers:
   site:
     specifiers:
       '@babel/core': ^7.18.2
+      '@crowdstrike/ember-oss-docs': ^1.0.3
       '@crowdstrike/ember-toucan-styles': ^1.0.0
-      '@crowdstrike/tailwind-toucan-base': ^3.0.0
+      '@crowdstrike/tailwind-toucan-base': ^3.3.1
       '@ember/optional-features': ^2.0.0
       '@ember/test-helpers': ^2.7.0
       '@embroider/compat': ^1.8.3
@@ -97,8 +98,9 @@ importers:
       typescript: ^4.7.4
       webpack: ^5.73.0
     dependencies:
+      '@crowdstrike/ember-oss-docs': 1.0.3_@babel+core@7.19.0
       '@crowdstrike/ember-toucan-styles': 1.0.5_clos3zjj3qpjbu2nqcj3p5qj74
-      '@crowdstrike/tailwind-toucan-base': 3.3.0_25hquoklqeoqwmt7fwvvcyxm5e
+      '@crowdstrike/tailwind-toucan-base': 3.3.1_25hquoklqeoqwmt7fwvvcyxm5e
       ember-browser-services: 4.0.3
       ember-url-hash-polyfill: 1.0.8_@babel+core@7.19.0
     devDependencies:
@@ -1793,6 +1795,16 @@ packages:
       minimist: 1.2.6
     dev: true
 
+  /@crowdstrike/ember-oss-docs/1.0.3_@babel+core@7.19.0:
+    resolution: {integrity: sha512-wtGuQCGQ7PUetLIkCi3dfnpRqtVIGnc/PAYO9riQq8ZbDS/aELT80Im2hiVK54b2uDlShRl6JySPOYpFCQ8/Sw==}
+    dependencies:
+      '@embroider/addon-shim': 1.8.3
+      ember-url-hash-polyfill: 1.0.8_@babel+core@7.19.0
+    transitivePeerDependencies:
+      - '@babel/core'
+      - supports-color
+    dev: false
+
   /@crowdstrike/ember-toucan-styles/1.0.5_clos3zjj3qpjbu2nqcj3p5qj74:
     resolution: {integrity: sha512-eXCBn0u5TyMeNsw57C4MqSZCrlDYL8LZp9olKd7UAVIK1TNeUrEDe0j6kAhJG2t7psHWjANjOy0ClXX0gMRXbg==}
     peerDependencies:
@@ -1800,7 +1812,7 @@ packages:
       ember-source: ^3.24.0 || >= 4.0.0
       tailwindcss: ^2.2.15 || ^3.0.0
     dependencies:
-      '@crowdstrike/tailwind-toucan-base': 3.3.0_25hquoklqeoqwmt7fwvvcyxm5e
+      '@crowdstrike/tailwind-toucan-base': 3.3.1_25hquoklqeoqwmt7fwvvcyxm5e
       '@embroider/addon-shim': 1.8.3
       '@glimmer/tracking': 1.1.2
       ember-browser-services: 4.0.3
@@ -1814,8 +1826,8 @@ packages:
       - ts-node
     dev: false
 
-  /@crowdstrike/tailwind-toucan-base/3.3.0_25hquoklqeoqwmt7fwvvcyxm5e:
-    resolution: {integrity: sha512-ElPozlCKgCR8Dd/xkgTL3+vVqunQuRmlv+X7yyPDrKZvVvjt6zD+wY/OxRfNbaJGRR4WR1BYKZxsplGx7QDTEw==}
+  /@crowdstrike/tailwind-toucan-base/3.3.1_25hquoklqeoqwmt7fwvvcyxm5e:
+    resolution: {integrity: sha512-DGjFKPK7Y0UNJaaWBjE6M0PT/0bgJe3craBrbmI46hzRXMqwsWBZVlk98Sj5pl3pM2N8xldC94W9BpdLDoxrOg==}
     engines: {node: '>=14.15.0'}
     dependencies:
       tailwindcss: 2.2.19_25hquoklqeoqwmt7fwvvcyxm5e
@@ -9197,7 +9209,7 @@ packages:
       source-map: 0.6.1
       wordwrap: 1.0.0
     optionalDependencies:
-      uglify-js: 3.17.0
+      uglify-js: 3.17.2
 
   /has-ansi/2.0.0:
     resolution: {integrity: sha512-C8vBJ8DwUCx19vhm7urhTuUsr4/IyP6l4VzNQDv+ryHQObW3TTTp9yB68WpYgRe2bbaGuZ/se74IqFeVnMnLZg==}
@@ -14096,8 +14108,8 @@ packages:
     resolution: {integrity: sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==}
     dev: true
 
-  /uglify-js/3.17.0:
-    resolution: {integrity: sha512-aTeNPVmgIMPpm1cxXr2Q/nEbvkmV8yq66F3om7X3P/cvOXQ0TMQ64Wk63iyT1gPlmdmGzjGpyLh1f3y8MZWXGg==}
+  /uglify-js/3.17.2:
+    resolution: {integrity: sha512-bbxglRjsGQMchfvXZNusUcYgiB9Hx2K4AHYXQy2DITZ9Rd+JzhX7+hoocE5Winr7z2oHvPsekkBwXtigvxevXg==}
     engines: {node: '>=0.8.0'}
     hasBin: true
     requiresBuild: true

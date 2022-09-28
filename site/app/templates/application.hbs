@@ -1,13 +1,38 @@
 {{page-title "OpenSource @ CrowdStrike"}}
 
-<div class="flex flex-col h-screen leading-none">
-  <div class="bg-ground-floor flex flex-col flex-grow min-w-toucan text-titles-and-attributes">
-    <TopBar />
+<App>
+  <:topBar>
+    <TopBar>
+      <:logo>
+        <ExternalLink @href="https://crowdstrike.com" class="mt-3">
+          <img src="/logo_crowdstrike.png" alt="Visit crowdstrike.com" />
+        </ExternalLink>
+      </:logo>
+      <:title>
+        open source
+      </:title>
+      <:links>
+        <Toucan::Link @variant="quiet" class=""@href="/projects">
+          <span class="type-lg-medium">Projects</span>
+        </Toucan::Link>
 
-    <div class="flex flex-col flex-grow">
-      {{outlet}}
-    </div>
-  </div>
+        <Toucan::Link @variant="quiet" @href="/documentation">
+          <span class="type-lg-medium">Documentation</span>
+        </Toucan::Link>
 
-  <Footer />
-</div>
+        <Toucan::Link @variant="quiet" @href="/policies">
+          <span class="type-lg-medium">Policies</span>
+        </Toucan::Link>
+      </:links>
+    </TopBar>
+  </:topBar>
+
+  <:content>
+    {{outlet}}
+  </:content>
+
+  <:footer>
+    <Footer />
+  </:footer>
+</App>
+
