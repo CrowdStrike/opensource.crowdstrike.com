@@ -2,8 +2,9 @@
   "name": "monorepo-root",
   "private": true,
   "scripts": {
-    "build": "node ./build/index.js",
-    "start": "pnpm run --filter oss start"
+    "build": "pnpm build:json",
+    "build:json": "node ./build/index.js",
+    "start": "pnpm --filter oss start"
   },
   "pnpm": {
     "overrides": {
