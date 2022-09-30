@@ -1,5 +1,4 @@
-import EmberRouter from '@ember/routing/router';
-
+import EmberRouter from '@embroider/router';
 import { withHashSupport } from 'ember-url-hash-polyfill';
 import config from 'oss/config/environment';
 
