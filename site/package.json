@@ -24,6 +24,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.19.0",
+    "@docfy/core": "^0.5.0",
+    "@docfy/ember": "^0.5.0",
     "@ember/optional-features": "^2.0.0",
     "@ember/test-helpers": "^2.7.0",
     "@embroider/compat": "^1.8.3",
@@ -95,6 +97,7 @@
     "loader.js": "^4.7.0",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.14",
+    "postcss-import": "^15.0.0",
     "postcss-loader": "^7.0.1",
     "prettier": "^2.6.2",
     "qunit": "^2.19.1",
@@ -117,8 +120,10 @@
     "@tailwindcss/typography": "^0.5.7",
     "ember-browser-services": "^4.0.3",
     "ember-cached-decorator-polyfill": "^0.1.4",
+    "ember-modifier": "^3.2.7",
     "ember-resources": "^5.4.0",
-    "ember-url-hash-polyfill": "^1.0.8"
+    "ember-url-hash-polyfill": "^1.0.8",
+    "tracked-built-ins": "^3.1.0"
   },
   "volta": {
     "node": "18.6.0"

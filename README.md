@@ -10,6 +10,8 @@ via [Ember.JS](https://emberjs.com/), our frontend framework of choice and using
 
 ## Contributing
 
+For content changes, edit the content in the `docs` folder.
+
 0. fork the repo https://github.com/CrowdStrike/opensource.crowdstrike.com/fork
 1. `git clone <the repo's git URL>`
 2. `cd opensource.crowdstrike.com`
@@ -27,3 +29,5 @@ once `cd`d into the repo, and after having run `pnpm install`, the app, which li
 ### Updating the featured projects
 
 Same as the contributin steps, except your changes involve `config.yaml`.
+
+This generates the json files that the "app" will read for both featured projects and *all* projects.

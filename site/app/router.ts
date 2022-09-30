@@ -1,3 +1,4 @@
+import { addDocfyRoutes } from '@docfy/ember';
 import EmberRouter from '@embroider/router';
 import { withHashSupport } from 'ember-url-hash-polyfill';
 import config from 'oss/config/environment';
@@ -20,4 +21,5 @@ Router.map(function () {
    * - documentation
    * - policies
    */
+  addDocfyRoutes(this);
 });

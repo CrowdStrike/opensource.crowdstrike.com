@@ -2,6 +2,7 @@ import url from 'node:url';
 import fs from 'node:fs/promises'
 import path from 'node:path';
 
+import uniqBy from 'lodash.uniqby';
 import { Octokit } from '@octokit/core';
 
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
@@ -32,14 +33,19 @@ async function loadProjects() {
   while (shouldAddNextPage()) {
     let response = await octokit.request(`GET /orgs/CrowdStrike/repos?type=public&per_page=100&page=${page}`);
 
-    lastData = response.data;
+    // Destructure the full project json object, because it's large.
+    // this took the projects.json file from 1.6MB to 61k
+    lastData = (response.data ?? []).map(({
+      name, description, stargazers_count, forks_count, html_url, language
+    }) => ({ name, description, stargazers_count, forks_count, html_url, language }));
+
     result.push(...lastData);
     page++;
 
     if (lastData.length === 0) break;
   }
 
-  return result;
+  return uniqBy(result, 'name');
 }
 
 async function writeAppJson(projects) {

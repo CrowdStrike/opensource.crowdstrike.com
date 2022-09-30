@@ -5,7 +5,7 @@ import { SubSection, Icon, Link } from '@crowdstrike/ember-oss-docs';
 const GitHubInfo: TOC<{
   Args: {
     title: string;
-    description: string;
+    description: string | undefined;
     stars: number | string;
     forks: number | string;
     url: string;

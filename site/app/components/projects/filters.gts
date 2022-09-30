@@ -1,74 +1,71 @@
 import Component from '@glimmer/component';
-import { tracked } from '@glimmer/tracking';
 import { on } from '@ember/modifier';
 
-export default class Filters extends Component {
-  handleSubmit = (e) => {
+import { Button, Input } from '@crowdstrike/ember-oss-docs';
+import { SelectLanguages } from './select-languages';
+
+import type { Project } from './types';
+
+export default class Filters extends Component<{
+  Args: {
+    languages: Set<string>;
+    allProjects: Project[];
+    onSubmit: (data: {
+      term?: string;
+      languages?: Set<string>;
+    }) => void;
+  }
+}> {
+  handleSubmit = (e: Event) => {
     e.preventDefault();
+
+    let formData = new FormData(event.currentTarget);
+    let data = Object.fromEntries(formData.entries());
+
+    this.args.onSubmit({
+      term: `${data.term}`,
+    })
   }
 
-  submitLanguages = () => {}
+  submitLanguages = (selected: Set<string>) => {
+    this.args.onSubmit({
+      languages: selected,
+    });
+  }
 
+  /**
+    * This wrapper div exists so that when we do "grid", we don't span
+    * the whole height of the search results
+    *
+    * The Form's sticky "top" numbers are calculated based off:
+    *  - "height of top-bar" + "1 rem", but in px
+    */
   <template>
-    <form {{on 'submit' this.handleSubmit}}>
-      <label>
-        Search projects
-        <input type="text" />
-      </label>
+    <div>
+      <form {{on 'submit' this.handleSubmit}} class="grid gap-4 sticky top-[76px] lg:top-[96px]">
+        <div class="flex gap-4 items-end">
+          <label class="grid min-w-[15rem]">
+            <span class="text-body-and-labels type-xs">
+              Search projects
+            </span>
+            <Input
+              type="text"
+              name="term"
+              class="type-md shadow-inner-md"
+              autocomplete="off"
+              placeholder="Search by name or description"
+            />
+          </label>
+          <Button>🔍 <span class="sr-only">Search</span></Button>
+        </div>
 
-      <SelectLanguages
-        @onSelect={{this.submitLanguages}}
-        @languages={{@languages}}
-      />
-
-
-    </form>
+        <SelectLanguages
+          @onSelect={{this.submitLanguages}}
+          @allProjects={{@allProjects}}
+          @languages={{@languages}}
+        />
+      </form>
+    </div>
   </template>
 }
 
-const DEFAULT_LANGUAGES = [
-  'Python',
-  'JavaScript',
-  'Go',
-  'C++',
-];
-
-const all = (data = []) => new Set([...DEFAULT_LANGUAGES, ...data]);
-
-class SelectLanguages extends Component {
-  @tracked showAll = false;
-  @tracked selected = new Set();
-
-  select = (set) => this.selected = set;
-  toggleAll = () => this.selected.size === 0
-    ? this.select(this.args.languages || new Set())
-    : this.select(new Set());
-
-  isSelected = (language) => this.selected.has(language);
-  seeAll = () => this.showAll = true;
-
-  <template>
-    Choose a language
-    <button {{on 'click' this.toggleAll}}>Select All</button>
-
-    <div class="grid gap-2">
-      {{#if this.showAll}}
-        {{#each (all @languages) as |language|}}
-          <label>
-            <input type="checkbox" checked={{this.isSelected language}} />
-            {{language}}
-          </label>
-        {{/each}}
-      {{else}}
-        {{#each DEFAULT_LANGUAGES as |language|}}
-          <label>
-            <input type="checkbox" checked={{this.isSelected language}} />
-            {{language}}
-          </label>
-        {{/each}}
-      {{/if}}
-    </div>
-
-    <button {{on 'click' this.seeAll}}>See all languages ({{@languages.size}})</button>
-  </template>;
-}
