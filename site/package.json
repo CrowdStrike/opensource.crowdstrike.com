@@ -123,6 +123,8 @@
     "ember-modifier": "^3.2.7",
     "ember-resources": "^5.4.0",
     "ember-url-hash-polyfill": "^1.0.8",
+    "highlight.js": "^11.6.0",
+    "highlightjs-glimmer": "^1.4.1",
     "tracked-built-ins": "^3.1.0"
   },
   "volta": {

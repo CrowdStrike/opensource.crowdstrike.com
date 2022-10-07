@@ -78,7 +78,7 @@ jobs:
         with:
           message: |+
             ## Preview URLs
-            GH Env: ${{ needs.PublishDocstoCloudflarePages.outputs.env }}
-            docs: ${{ needs.PublishDocstoCloudflarePages.outputs.url }}
-            api docs: ${{ needs.PublishDocstoCloudflarePages.outputs.url }}/api/modules.html
+            GH Env: ${{ needs.publish.outputs.env }}
+            docs: ${{ needs.publish.outputs.url }}
+            api docs: ${{ needs.publish.outputs.url }}/api/modules.html
 
