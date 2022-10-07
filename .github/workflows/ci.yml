@@ -18,13 +18,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Install Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 12.x
-          cache: npm
-      - name: Install Dependencies
-        run: npm ci
+      - uses: ./.github/actions/pnpm
       - name: Lint
         run: npm run lint
 
@@ -34,12 +28,52 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Install Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 12.x
-          cache: npm
-      - name: Install Dependencies
-        run: npm ci
+      - uses: ./.github/actions/pnpm
       - name: Run Tests
-        run: npm test
+        run: pnpm test
+
+  publish:
+    name: Publish Docs to Cloudflare Pages
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    outputs:
+      url: ${{ steps.publishStep.outputs.url }}
+      env: ${{ steps.publishStep.outputs.environment }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+      - uses: ./.github/actions/pnpm
+      - run: pnpm build
+      - name: Publish to Cloudflare Pages
+        id: publishStep
+        uses: cloudflare/pages-action@1
+        with:
+          apiToken: ${{ secrets.UX_OSS_CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.UX_OSS_CLOUDFLARE_ACCOUNT_ID }}
+          projectName: opensource-crowdstrike-com
+          directory: ./dist
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+
+
+  publish_comment:
+    name: Post Preview URL as comment to PR
+    runs-on: ubuntu-latest
+    needs: publish
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+      - uses: ./.github/actions/pnpm
+      - uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          message: |+
+            ## Preview URLs
+            GH Env: ${{ needs.PublishDocstoCloudflarePages.outputs.env }}
+            docs: ${{ needs.PublishDocstoCloudflarePages.outputs.url }}
+            api docs: ${{ needs.PublishDocstoCloudflarePages.outputs.url }}/api/modules.html
+
+
+
