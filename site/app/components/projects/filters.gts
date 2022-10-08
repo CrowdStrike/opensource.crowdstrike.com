@@ -56,7 +56,7 @@ export default class Filters extends Component<{
               placeholder="Search by name or description"
             />
           </label>
-          <Button>🔍 <span class="sr-only">Search</span></Button>
+          <Button type="submit">🔍 <span class="sr-only">Search</span></Button>
         </div>
 
         <SelectLanguages

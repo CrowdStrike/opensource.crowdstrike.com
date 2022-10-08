@@ -77,8 +77,6 @@ jobs:
       - uses: marocchino/sticky-pull-request-comment@v2
         with:
           message: |+
-            ## Preview URLs
-            GH Env: ${{ needs.PublishDocstoCloudflarePages.outputs.env }}
-            docs: ${{ needs.PublishDocstoCloudflarePages.outputs.url }}
-            api docs: ${{ needs.PublishDocstoCloudflarePages.outputs.url }}/api/modules.html
+            ## Preview URL
+            ${{ needs.publish.outputs.url }}
 

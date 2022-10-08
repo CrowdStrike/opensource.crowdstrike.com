@@ -9,12 +9,16 @@ function isProduction() {
 module.exports = function (defaults) {
   let app = new EmberApp(defaults, {
     // Add options here
-    // prember: {
-    //   urls: [
-    //     '/',
-    //     // other static pages should be added here
-    //   ],
-    // },
+    prember: {
+      urls: [
+        '/',
+        '/projects',
+        '/docs',
+        '/docs/contributing',
+        '/docs/open-source-policy',
+        '/docs/code-of-conduct',
+      ],
+    },
   });
 
   // Use `app.import` to add additional libraries to the generated

@@ -73,6 +73,7 @@
     "ember-cli-app-version": "^5.0.0",
     "ember-cli-babel": "^7.26.11",
     "ember-cli-dependency-checker": "^3.3.1",
+    "ember-cli-fastboot": "^3.3.2",
     "ember-cli-htmlbars": "^6.0.1",
     "ember-cli-inject-live-reload": "^2.1.0",
     "ember-cli-sri": "^2.1.1",
@@ -99,6 +100,7 @@
     "postcss": "^8.4.14",
     "postcss-import": "^15.0.0",
     "postcss-loader": "^7.0.1",
+    "prember": "^1.1.1",
     "prettier": "^2.6.2",
     "qunit": "^2.19.1",
     "qunit-dom": "^2.0.0",
@@ -113,7 +115,7 @@
     "edition": "octane"
   },
   "dependencies": {
-    "@crowdstrike/ember-oss-docs": "^1.0.5",
+    "@crowdstrike/ember-oss-docs": "^1.0.19",
     "@crowdstrike/ember-toucan-styles": "^1.0.0",
     "@crowdstrike/tailwind-toucan-base": "^3.3.1",
     "@embroider/router": "^1.8.3",
@@ -123,6 +125,8 @@
     "ember-modifier": "^3.2.7",
     "ember-resources": "^5.4.0",
     "ember-url-hash-polyfill": "^1.0.8",
+    "highlight.js": "^11.6.0",
+    "highlightjs-glimmer": "^1.4.1",
     "tracked-built-ins": "^3.1.0"
   },
   "volta": {

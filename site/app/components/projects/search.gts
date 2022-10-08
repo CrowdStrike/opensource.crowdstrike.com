@@ -58,15 +58,7 @@ export default class Search extends Component {
       })
     }
 
-    /**
-      * If we haven't filtered, don't render everything
-      */
-    // if (projects.length === this.projectData.value?.length) {
-    //   projects = projects.slice(0, 30);
-    // }
-
     return projects.sort((a, b) => (b.stargazers_count - a.stargazers_count))
-    // .slice(0, 30);
   }
 
   @cached
@@ -81,7 +73,10 @@ export default class Search extends Component {
     <div class="grid gap-5 sm:grid-flow-col">
       {{#if this.projectData.isLoading}}
 
-        Loading . . .
+        {{!-- spacing needed to keep the footer from popping in --}}
+        <div class="h-[100vh]">
+          Loading . . .
+        </div>
 
       {{else if this.projectData.isError}}
 
