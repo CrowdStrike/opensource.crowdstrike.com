@@ -15,6 +15,9 @@ module.exports = function (defaults) {
     //     // other static pages should be added here
     //   ],
     // },
+    'ember-cli-babel': {
+      enableTypeScriptTransform: true,
+    },
   });
 
   // Use `app.import` to add additional libraries to the generated
