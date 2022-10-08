@@ -33,7 +33,7 @@ importers:
       '@ember/test-helpers': ^2.7.0
       '@embroider/compat': ^1.9.0
       '@embroider/core': ^1.9.0
-      '@embroider/router': ^1.8.3
+      '@embroider/router': ^1.9.0
       '@embroider/webpack': ^1.9.0
       '@glimmer/component': ^1.1.2
       '@glimmer/tracking': ^1.1.2
@@ -121,7 +121,7 @@ importers:
       '@crowdstrike/ember-oss-docs': 1.0.19_sbedplcyn2qol442jb3puqhbfi
       '@crowdstrike/ember-toucan-styles': 1.0.5_do2k75ey62s362izemmcwwdmga
       '@crowdstrike/tailwind-toucan-base': 3.3.1_jhfe3rbur6kzimvcehnoniy6fy
-      '@embroider/router': 1.8.3_6nap4nrlhytgwxhnrgcj56wvwu
+      '@embroider/router': 1.9.0_6nap4nrlhytgwxhnrgcj56wvwu
       '@tailwindcss/typography': 0.5.7_tailwindcss@3.1.8
       ember-browser-services: 4.0.3
       ember-cached-decorator-polyfill: 0.1.4_@babel+core@7.19.0
@@ -2801,11 +2801,11 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@embroider/router/1.8.3_6nap4nrlhytgwxhnrgcj56wvwu:
-    resolution: {integrity: sha512-UF+37tzFsul3Vw6rshUbJwdKj1w7o8qTReEFsZiSw8LFouZWS2gatBbJw7f2SDEudLB8jbue3OP4N/IjBhSK1g==}
+  /@embroider/router/1.9.0_6nap4nrlhytgwxhnrgcj56wvwu:
+    resolution: {integrity: sha512-TdF754yO7YiXuU16HxAixa3kXEfPIr7sWh4wLzc1wokNJBE7IwBLtJKBykDQTdKodaBLG+4fJIKFSsAt/BapDg==}
     engines: {node: 12.* || 14.* || >= 16}
     peerDependencies:
-      '@embroider/core': 1.8.3
+      '@embroider/core': ^1.8.3
       '@types/ember__routing': '*'
     peerDependenciesMeta:
       '@embroider/core':
@@ -2815,7 +2815,7 @@ packages:
     dependencies:
       '@ember/test-waiters': 3.0.2
       '@embroider/core': 1.9.0
-      '@embroider/macros': 1.8.3
+      '@embroider/macros': 1.9.0
       '@types/ember__routing': 4.0.11_@babel+core@7.19.0
       ember-cli-babel: 7.26.11
       ember-cli-htmlbars: 5.7.2
