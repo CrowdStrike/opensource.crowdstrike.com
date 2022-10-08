@@ -77,8 +77,6 @@ jobs:
       - uses: marocchino/sticky-pull-request-comment@v2
         with:
           message: |+
-            ## Preview URLs
-            GH Env: ${{ needs.publish.outputs.env }}
-            docs: ${{ needs.publish.outputs.url }}
-            api docs: ${{ needs.publish.outputs.url }}/api/modules.html
+            ## Preview URL
+            ${{ needs.publish.outputs.url }}
 
