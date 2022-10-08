@@ -25,8 +25,13 @@ jobs:
 
 
   test:
-    name: "Test"
+    name: "Test w/ ${{ matrix.browser }}"
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        browser:
+          - Chrome
+          - Firefox
 
     steps:
       - uses: actions/checkout@v3
@@ -34,6 +39,8 @@ jobs:
       - name: Run Tests
         run: pnpm ember test
         working-directory: site
+        env:
+          CI_BROWSER: ${{ matrix.browser }}
 
   publish:
     name: Publish Docs to Cloudflare Pages
