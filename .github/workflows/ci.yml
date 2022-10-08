@@ -42,6 +42,17 @@ jobs:
         env:
           CI_BROWSER: ${{ matrix.browser }}
 
+  typecheck:
+    name: "Typecheck"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./.github/actions/pnpm
+      - name: Glint
+        run: pnpm glint
+        working-directory: site
+
+
   publish:
     name: Publish Docs to Cloudflare Pages
     runs-on: ubuntu-latest

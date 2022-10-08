@@ -112,7 +112,7 @@
     "edition": "octane"
   },
   "dependencies": {
-    "@crowdstrike/ember-oss-docs": "^1.0.19",
+    "@crowdstrike/ember-oss-docs": "^1.0.20",
     "@crowdstrike/ember-toucan-styles": "^1.0.0",
     "@crowdstrike/tailwind-toucan-base": "^3.3.1",
     "@embroider/router": "^1.9.0",
