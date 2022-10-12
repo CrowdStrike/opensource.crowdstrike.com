@@ -1,5 +1,6 @@
 import Component from '@glimmer/component';
 import { cached, tracked } from '@glimmer/tracking';
+// @ts-ignore
 import { hash } from '@ember/helper';
 
 // https://ember-resources.pages.dev/functions/util_remote_data.RemoteData
@@ -62,9 +63,9 @@ export default class Search extends Component {
   }
 
   @cached
-  get languages() {
+  get languages(): Set<string> {
     let projects = this.projectData.value ?? [];
-    let result = new Set(projects.map((project) => project.language).filter(Boolean));
+    let result = new Set(projects.map((project) => project.language).filter(Boolean) as string[]);
 
     return result;
   }
@@ -82,7 +83,7 @@ export default class Search extends Component {
 
         {{errorToString this.projectData.error}}
 
-      {{else}}
+      {{else if this.projectData.value}}
         <Filters
           @languages={{this.languages}}
           @allProjects={{this.projectData.value}}
@@ -90,6 +91,10 @@ export default class Search extends Component {
         />
 
         <Results @projects={{this.results}} />
+      {{else}}
+
+        unknown error
+
       {{/if}}
     </div>
   </template>

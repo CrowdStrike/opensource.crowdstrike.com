@@ -1,6 +1,8 @@
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
+// @ts-ignore
 import { on } from '@ember/modifier';
+// @ts-ignore
 import { fn } from '@ember/helper';
 
 import { TrackedSet } from 'tracked-built-ins';
@@ -15,7 +17,7 @@ const DEFAULT_LANGUAGES = [
   'Go',
 ];
 
-const all = (data = []) => new Set([...DEFAULT_LANGUAGES, ...data]);
+const all = (data: Set<string>) => new Set([...DEFAULT_LANGUAGES, ...data]);
 
 export class SelectLanguages extends Component<{
   Args: {
