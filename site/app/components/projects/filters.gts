@@ -1,5 +1,7 @@
 import Component from '@glimmer/component';
+// @ts-ignore
 import { on } from '@ember/modifier';
+import { assert } from '@ember/debug';
 
 import { Button, Input } from '@crowdstrike/ember-oss-docs';
 import { SelectLanguages } from './select-languages';
@@ -19,11 +21,13 @@ export default class Filters extends Component<{
   handleSubmit = (e: Event) => {
     e.preventDefault();
 
-    let formData = new FormData(event.currentTarget);
+    assert(`currentTarget must be a form`, e.currentTarget instanceof HTMLFormElement);
+
+    let formData = new FormData(e.currentTarget);
     let data = Object.fromEntries(formData.entries());
 
     this.args.onSubmit({
-      term: `${data.term}`,
+      term: `${data['term']}`,
     })
   }
 
@@ -56,7 +60,7 @@ export default class Filters extends Component<{
               placeholder="Search by name or description"
             />
           </label>
-          <Button>🔍 <span class="sr-only">Search</span></Button>
+          <Button type="submit">🔍 <span class="sr-only">Search</span></Button>
         </div>
 
         <SelectLanguages

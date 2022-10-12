@@ -23,6 +23,11 @@
         <Toucan::Link @variant="quiet" @href="/docs/open-source-policy">
           <span class="type-lg-medium">Policies</span>
         </Toucan::Link>
+
+        {{!-- template-lint-disable simple-unless --}}
+        {{#unless (is-home-page)}}
+          <ThemeSwitcher />
+        {{/unless}}
       </:links>
     </TopBar>
   </:topBar>

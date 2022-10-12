@@ -1,5 +1,6 @@
 import Component from '@glimmer/component';
 import { cached, tracked } from '@glimmer/tracking';
+// @ts-ignore
 import { hash } from '@ember/helper';
 
 // https://ember-resources.pages.dev/functions/util_remote_data.RemoteData
@@ -58,21 +59,13 @@ export default class Search extends Component {
       })
     }
 
-    /**
-      * If we haven't filtered, don't render everything
-      */
-    // if (projects.length === this.projectData.value?.length) {
-    //   projects = projects.slice(0, 30);
-    // }
-
     return projects.sort((a, b) => (b.stargazers_count - a.stargazers_count))
-    // .slice(0, 30);
   }
 
   @cached
-  get languages() {
+  get languages(): Set<string> {
     let projects = this.projectData.value ?? [];
-    let result = new Set(projects.map((project) => project.language).filter(Boolean));
+    let result = new Set(projects.map((project) => project.language).filter(Boolean) as string[]);
 
     return result;
   }
@@ -81,13 +74,16 @@ export default class Search extends Component {
     <div class="grid gap-5 sm:grid-flow-col">
       {{#if this.projectData.isLoading}}
 
-        Loading . . .
+        {{!-- spacing needed to keep the footer from popping in --}}
+        <div class="h-[100vh]">
+          Loading . . .
+        </div>
 
       {{else if this.projectData.isError}}
 
         {{errorToString this.projectData.error}}
 
-      {{else}}
+      {{else if this.projectData.value}}
         <Filters
           @languages={{this.languages}}
           @allProjects={{this.projectData.value}}
@@ -95,6 +91,10 @@ export default class Search extends Component {
         />
 
         <Results @projects={{this.results}} />
+      {{else}}
+
+        unknown error
+
       {{/if}}
     </div>
   </template>

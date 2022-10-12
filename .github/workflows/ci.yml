@@ -25,15 +25,33 @@ jobs:
 
 
   test:
-    name: "Test"
+    name: "Test w/ ${{ matrix.browser }}"
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        browser:
+          - Chrome
+          - Firefox
 
     steps:
       - uses: actions/checkout@v3
       - uses: ./.github/actions/pnpm
       - name: Run Tests
-        run: pnpm test
+        run: pnpm ember test
         working-directory: site
+        env:
+          CI_BROWSER: ${{ matrix.browser }}
+
+  typecheck:
+    name: "Typecheck"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./.github/actions/pnpm
+      - name: Glint
+        run: pnpm glint
+        working-directory: site
+
 
   publish:
     name: Publish Docs to Cloudflare Pages
@@ -77,8 +95,6 @@ jobs:
       - uses: marocchino/sticky-pull-request-comment@v2
         with:
           message: |+
-            ## Preview URLs
-            GH Env: ${{ needs.PublishDocstoCloudflarePages.outputs.env }}
-            docs: ${{ needs.PublishDocstoCloudflarePages.outputs.url }}
-            api docs: ${{ needs.PublishDocstoCloudflarePages.outputs.url }}/api/modules.html
+            ## Preview URL
+            ${{ needs.publish.outputs.url }}
 

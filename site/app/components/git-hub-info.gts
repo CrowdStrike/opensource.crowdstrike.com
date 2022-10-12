@@ -2,7 +2,7 @@ import type { TOC } from '@ember/component/template-only';
 
 import { SubSection, Icon, Link } from '@crowdstrike/ember-oss-docs';
 
-const GitHubInfo: TOC<{
+export const GitHubInfo: TOC<{
   Args: {
     title: string;
     description: string | undefined;

@@ -1,6 +1,7 @@
 'use strict';
 
 const path = require('path');
+
 const monorepoRoot = path.resolve(__dirname, '..');
 
 module.exports = {
