@@ -24,7 +24,7 @@ importers:
   site:
     specifiers:
       '@babel/core': ^7.19.0
-      '@crowdstrike/ember-oss-docs': ^1.0.24
+      '@crowdstrike/ember-oss-docs': ^1.0.25
       '@crowdstrike/ember-toucan-styles': ^1.0.0
       '@crowdstrike/tailwind-toucan-base': ^3.3.1
       '@docfy/core': ^0.5.0
@@ -118,7 +118,7 @@ importers:
       typescript: ^4.8.4
       webpack: ^5.73.0
     dependencies:
-      '@crowdstrike/ember-oss-docs': 1.0.24_hpalvyvcejamio52o4jbu7fabm
+      '@crowdstrike/ember-oss-docs': 1.0.25_hpalvyvcejamio52o4jbu7fabm
       '@crowdstrike/ember-toucan-styles': 1.0.5_76g3vsgnbfkils333qzvryz6pm
       '@crowdstrike/tailwind-toucan-base': 3.3.1_xkowlklhtk6sfvtndbucb3hfiy
       '@embroider/router': 1.9.0_6nap4nrlhytgwxhnrgcj56wvwu
@@ -1450,8 +1450,8 @@ packages:
       minimist: 1.2.7
     dev: true
 
-  /@crowdstrike/ember-oss-docs/1.0.24_hpalvyvcejamio52o4jbu7fabm:
-    resolution: {integrity: sha512-+NrmD3FBCWGFJRkpEr9meACPDJf01sHIa6xXk9aDMbuFbWDtbq4QdYgmXwYjj8Cf8KCCL9h/TSuVPMQETiZuog==}
+  /@crowdstrike/ember-oss-docs/1.0.25_hpalvyvcejamio52o4jbu7fabm:
+    resolution: {integrity: sha512-QqHDEZkh0SgWtfr0lk+aY4DRsKkGv899wEtT30mIKxLuq4FtH6D0kkex2JYpraTyqMh4Ih64cy3vbYGF2aWMfg==}
     peerDependencies:
       '@crowdstrike/tailwind-toucan-base': ^3.3.1
       '@docfy/core': ^0.5.0
