@@ -6,3 +6,18 @@
 @import '@crowdstrike/ember-oss-docs/dist/styles/docfy-overrides.css';
 @import '@crowdstrike/ember-oss-docs/dist/styles/hljs.css';
 
+
+.theme-dark {
+  --ground-floor-gradient-left: 39, 38, 44, 0.9;
+  --ground-floor-gradient-right: 39, 38, 44, 1;
+}
+.theme-light {
+  --ground-floor-gradient-left: 255, 255, 255, 0.7;
+  --ground-floor-gradient-right: 255, 255, 255, 1;
+}
+
+.home-community {
+  background-image:
+    linear-gradient(to left, rgba(var(--ground-floor-gradient-left)), rgba(var(--ground-floor-gradient-right))),
+    url('/community-bg-icons.webp');
+}

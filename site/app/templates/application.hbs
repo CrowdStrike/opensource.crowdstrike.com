@@ -4,9 +4,7 @@
   <:topBar>
     <TopBar>
       <:logo>
-        <ExternalLink @href="https://crowdstrike.com" class="mt-3">
-          <img src="/logo_crowdstrike.png" alt="Visit crowdstrike.com" />
-        </ExternalLink>
+        <CrowdStrike class="mt-[6px]" />
       </:logo>
       <:title>
         open source
@@ -24,10 +22,7 @@
           <span class="type-lg-medium">Policies</span>
         </Toucan::Link>
 
-        {{!-- template-lint-disable simple-unless --}}
-        {{#unless (is-home-page)}}
-          <ThemeSwitcher />
-        {{/unless}}
+        <ThemeSwitcher />
       </:links>
     </TopBar>
   </:topBar>
