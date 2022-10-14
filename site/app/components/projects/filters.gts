@@ -60,8 +60,12 @@ export default class Filters extends Component<{
               placeholder="Search by name or description"
             />
           </label>
-          <Button type="submit">🔍 <span class="sr-only">Search</span></Button>
         </div>
+        <div class="flex justify-end">
+          <Button type="submit">Search</Button>
+        </div>
+
+        <hr />
 
         <SelectLanguages
           @onSelect={{this.submitLanguages}}
