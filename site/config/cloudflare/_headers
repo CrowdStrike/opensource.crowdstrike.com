@@ -1,3 +1,3 @@
 /*
-  Content-Security-Policy: upgrade-insecure-requests
+  Content-Security-Policy: upgrade-insecure-requests; script-src self opensource-crowdstrike-com.pages.dev *.opensource-crowdstrike-com.pages.dev *.opensource.crowdstrike.com opensource.crowdstrike.com; frame-ancestors 'none'
   Strict-Transport-Security: max-age=31536000
