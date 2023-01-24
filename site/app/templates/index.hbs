@@ -1,20 +1,22 @@
-<Hero class="bg-cover md:bg-contain bg-right-top bg-no-repeat bg-[url('/hero-homepage.webp')]">
+<Hero
+  class="bg-cover md:bg-contain bg-right-top bg-no-repeat bg-[url('/hero-homepage.webp')]"
+>
   <div class="grid gap-8" id="skip-to-target">
     <h1 class="type-4xl">Open Source at CrowdStrike</h1>
 
     <p class="type-lg">
-      Crowdstrike invests in Open Source as part of our commitment to give back to the community.
-      We want to make it easier for the community to take advantage of our resources and experience,
-      the extensibility of the Falcon platform, and help stop breaches in real-time.
+      Crowdstrike invests in Open Source as part of our commitment to give back
+      to the community. We want to make it easier for the community to take
+      advantage of our resources and experience, the extensibility of the Falcon
+      platform, and help stop breaches in real-time.
     </p>
 
     <div>
-      <Toucan::Link @variant="brand" class="px-6 py-1" @href="/projects">Explore projects</Toucan::Link>
+      <Toucan::Link @variant="brand" class="px-6 py-1" @href="/projects">Explore
+        projects</Toucan::Link>
     </div>
   </div>
 </Hero>
-
-
 
 <main id="main" name="main">
   <ContentSection>
@@ -23,16 +25,20 @@
     </:header>
 
     <:content>
-      The teams behind our technology have delivered unparalleled protection against the most sophisticated cyber attacks.
-      With a relentless focus on innovation and a fanatical commitment to developing and shaping the Falcon platform,
-      we believe open source is key to delivering a best-in-class experience for our customers while leading with integrity. <br>
+      The teams behind our technology have delivered unparalleled protection
+      against the most sophisticated cyber attacks. With a relentless focus on
+      innovation and a fanatical commitment to developing and shaping the Falcon
+      platform, we believe open source is key to delivering a best-in-class
+      experience for our customers while leading with integrity.
+      <br />
       Join us on a mission that matters.
     </:content>
 
     <:footer>
       <SubSection>
         <:header>Fanatical about the customer</:header>
-        <:content>By contributing to open source, we are empowering our customers.</:content>
+        <:content>By contributing to open source, we are empowering our
+          customers.</:content>
       </SubSection>
       <SubSection>
         <:header>Relentless focus on inovation</:header>
@@ -44,7 +50,6 @@
       </SubSection>
     </:footer>
   </ContentSection>
-
 
   <ContentSection>
     <:header>Featured projects</:header>
@@ -62,19 +67,23 @@
     </:footer>
   </ContentSection>
 
-
-  <ContentSection class="home-community bg-[url('/community-bg-icons.webp')] bg-right bg-no-repeat">
+  <ContentSection
+    class="home-community bg-[url('/community-bg-icons.webp')] bg-right bg-no-repeat"
+  >
     <:header>Join our community</:header>
 
     <:content>
-      Contributing to a project is no small feat!
-      We have guidance for our new community members to learn how CrowdStrike-led projects operate,
-      and by extension, make the contribution process easier.
+      Contributing to a project is no small feat! We have guidance for our new
+      community members to learn how CrowdStrike-led projects operate, and by
+      extension, make the contribution process easier.
     </:content>
 
     <:footer>
       <div>
-        <Toucan::Link @variant="normal" @href="https://github.com/CrowdStrike">Start contributing</Toucan::Link>
+        <Toucan::Link
+          @variant="normal"
+          @href="https://github.com/CrowdStrike"
+        >Start contributing</Toucan::Link>
       </div>
     </:footer>
   </ContentSection>

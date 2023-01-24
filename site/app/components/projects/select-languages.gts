@@ -34,6 +34,9 @@ export class SelectLanguages extends Component<{
     if (this.selected.has(language)) {
       // Delete doesn't work on tracked-built-ins....
       this.selected.delete(language);
+      // This is generally an anti-pattern, and we wouldn't need to do this
+      // if delete was fixed in tracked-built-ins
+      // eslint-disable-next-line no-self-assign
       this.selected = this.selected;
 
       return;

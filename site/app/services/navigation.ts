@@ -29,14 +29,20 @@ export default class NavigationService extends Service {
   @service('browser/window') declare window: WindowService;
 
   @action
-  handleAnchorClick(event: MouseEvent, target: keyof MouseEvent = 'currentTarget') {
+  handleAnchorClick(
+    event: MouseEvent,
+    target: keyof MouseEvent = 'currentTarget'
+  ) {
     event.preventDefault();
 
     // metaKey for MacOS / ctrlKey for Windows
     let { metaKey, ctrlKey } = event;
     let a = event[target];
 
-    assert(`event target is not an anchor element, ${target}`, a instanceof HTMLAnchorElement);
+    assert(
+      `event target is not an anchor element, ${target}`,
+      a instanceof HTMLAnchorElement
+    );
 
     let href = a.href.replace(new RegExp(`^${document.location.origin}`), '');
 
@@ -91,7 +97,11 @@ export default class NavigationService extends Service {
          */
         let [currentUrl = ''] = this.router.currentURL.split('#');
 
-        if (hash && appUrl === currentUrl && hash !== this.window.location.hash) {
+        if (
+          hash &&
+          appUrl === currentUrl &&
+          hash !== this.window.location.hash
+        ) {
           return scrollToHash(hash);
         }
 

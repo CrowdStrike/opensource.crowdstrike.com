@@ -1,11 +1,10 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
-@import '@crowdstrike/ember-oss-docs/dist/styles/tailwind-extensions.css';
-@import '@crowdstrike/ember-oss-docs/dist/styles/docfy-overrides.css';
-@import '@crowdstrike/ember-oss-docs/dist/styles/hljs.css';
-
+@import "@crowdstrike/ember-oss-docs/dist/styles/tailwind-extensions.css";
+@import "@crowdstrike/ember-oss-docs/dist/styles/docfy-overrides.css";
+@import "@crowdstrike/ember-oss-docs/dist/styles/hljs.css";
 
 .theme-dark {
   --ground-floor-gradient-left: 39, 38, 44, 0.9;
@@ -17,7 +16,10 @@
 }
 
 .home-community {
-  background-image:
-    linear-gradient(to left, rgba(var(--ground-floor-gradient-left)), rgba(var(--ground-floor-gradient-right))),
-    url('/community-bg-icons.webp');
+  background-image: linear-gradient(
+      to left,
+      rgba(var(--ground-floor-gradient-left)),
+      rgba(var(--ground-floor-gradient-right))
+    ),
+    url("/community-bg-icons.webp");
 }

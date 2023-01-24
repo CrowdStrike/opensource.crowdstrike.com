@@ -24,7 +24,9 @@ module('Application | visiting', function (hooks) {
      */
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     let privateRouter = router as any;
-    let allRouteNames = Object.keys(privateRouter._router.targetState.router.recognizer.names);
+    let allRouteNames = Object.keys(
+      privateRouter._router.targetState.router.recognizer.names
+    );
     let directRoutes = allRouteNames.filter(
       (name) =>
         /**
@@ -46,7 +48,10 @@ module('Application | visiting', function (hooks) {
       let url = router.urlFor(target);
 
       await visit(url);
-      assert.true(true, `an error was not thrown while visiting ${target} via ${url}`);
+      assert.true(
+        true,
+        `an error was not thrown while visiting ${target} via ${url}`
+      );
     }
   });
 });
