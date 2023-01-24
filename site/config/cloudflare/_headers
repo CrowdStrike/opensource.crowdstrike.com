@@ -1,3 +1,7 @@
 /*
-  Content-Security-Policy: upgrade-insecure-requests; script-src self opensource-crowdstrike-com.pages.dev *.opensource-crowdstrike-com.pages.dev *.opensource.crowdstrike.com opensource.crowdstrike.com; frame-ancestors 'none'
+  Content-Security-Policy: upgrade-insecure-requests; script-src self opensource-crowdstrike-com.pages.dev *.opensource-crowdstrike-com.pages.dev *.opensource.crowdstrike.com opensource.crowdstrike.com; frame-ancestors 'none'; report-uri /csp-violation-report-endpoint/
   Strict-Transport-Security: max-age=31536000
+  X-Xss-Protection: 1; mode=block
+  X-Frame-Options: ALLOW-FROM https://crowdstrike.lookbookhq.com/
+	X-Content-Type-Options: nosniff
+	Referrer-Policy: strict-origin-when-cross-origin
