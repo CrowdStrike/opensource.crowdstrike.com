@@ -4,7 +4,7 @@ import '@glint/environment-ember-template-imports';
 // import "ember-page-title/glint";
 import '@crowdstrike/ember-oss-docs/glint';
 
-import type { ComponentLike,HelperLike, ModifierLike } from '@glint/template';
+import type { ComponentLike, HelperLike, ModifierLike } from '@glint/template';
 import type Featured from 'oss/components/featured';
 import type { GitHubInfo } from 'oss/components/git-hub-info';
 import type Search from 'oss/components/projects/search';
