@@ -2,7 +2,7 @@ import '@glint/environment-ember-loose';
 import '@glint/environment-ember-template-imports';
 // Types from libraries
 // import "ember-page-title/glint";
-import '@crowdstrike/ember-oss-docs/glint';
+import type EmberOssDocs from '@crowdstrike/ember-oss-docs/template-registry';
 
 import type { ComponentLike, HelperLike, ModifierLike } from '@glint/template';
 import type Featured from 'oss/components/featured';
@@ -21,7 +21,7 @@ declare module '@ember/modifier' {
 }
 
 declare module '@glint/environment-ember-loose/registry' {
-  export default interface Registry {
+  export default interface Registry extends EmberOssDocs {
     GitHubInfo: typeof GitHubInfo;
 
     // ember-page-title does not provide its own types
