@@ -7,6 +7,12 @@ import config from 'oss/config/environment';
 export default class Router extends EmberRouter {
   location = config.locationType;
   rootURL = config.rootURL;
+
+  constructor(...args: object[]) {
+    super(...args);
+
+    this.on('routeDidChange', () => window.scrollTo(0, 0));
+  }
 }
 
 Router.map(function () {
