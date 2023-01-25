@@ -5,7 +5,7 @@
     "language": "Go",
     "description": "The CrowdStrike Falcon Operator deploys CrowdStrike Falcon Workload Protection\nto the cluster. The operator exposes 2 custom resources that allows you to deploy\neither the Falcon Container Sensor or Falcon Node Sensor.\n",
     "fullName": "CrowdStrike/falcon-operator",
-    "stars": 20,
+    "stars": 26,
     "forks": 15
   },
   {
@@ -23,7 +23,7 @@
     "language": "Python",
     "description": "The FalconPy SDK contains a collection of Python classes that abstract\nCrowdStrike Falcon OAuth2 API interaction, removing duplicative code\nand allowing developers to focus on just the logic of their solution requirements.\n",
     "fullName": "CrowdStrike/falconpy",
-    "stars": 165,
-    "forks": 59
+    "stars": 197,
+    "forks": 76
   }
 ]

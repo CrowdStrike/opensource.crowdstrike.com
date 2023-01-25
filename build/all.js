@@ -32,7 +32,6 @@ async function loadProjects() {
 
   while (shouldAddNextPage()) {
     let response = await octokit.request(`GET /orgs/CrowdStrike/repos?type=public&per_page=100&page=${page}`);
-
     // Destructure the full project json object, because it's large.
     // this took the projects.json file from 1.6MB to 61k
     lastData = (response.data ?? []).map(({
@@ -45,6 +44,8 @@ async function loadProjects() {
     if (lastData.length === 0) break;
   }
 
+  result = result.filter(isNotArchived).filter(isNotFork);
+
   return uniqBy(result, 'name');
 }
 
@@ -52,4 +53,13 @@ async function writeAppJson(projects) {
   const appPath = path.join(__dirname, '../site/public/projects.json');
 
   await fs.writeFile(appPath, JSON.stringify(projects, null, 2));
+}
+
+
+function isNotArchived({ archived }) {
+  return !archived;
+}
+
+function isNotFork({ fork }) {
+  return !fork;
 }

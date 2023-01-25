@@ -18,7 +18,7 @@
   {
     "name": "ember-timetree",
     "description": "Visualize hierarchical timeline data. Built with Ember.js and D3.js",
-    "stargazers_count": 272,
+    "stargazers_count": 274,
     "forks_count": 59,
     "html_url": "https://github.com/CrowdStrike/ember-timetree",
     "language": "JavaScript"
@@ -26,7 +26,7 @@
   {
     "name": "Tortilla",
     "description": null,
-    "stargazers_count": 271,
+    "stargazers_count": 273,
     "forks_count": 51,
     "html_url": "https://github.com/CrowdStrike/Tortilla",
     "language": "C"
@@ -34,7 +34,7 @@
   {
     "name": "CrowdDetox",
     "description": "The CrowdDetox plugin for Hex-Rays automatically removes junk code and variables from Hex-Rays function decompilations.",
-    "stargazers_count": 155,
+    "stargazers_count": 154,
     "forks_count": 34,
     "html_url": "https://github.com/CrowdStrike/CrowdDetox",
     "language": "C++"
@@ -42,8 +42,8 @@
   {
     "name": "CrowdFMS",
     "description": "CrowdStrike Feed Management System. CrowdFMS is a framework for automating collection and processing of samples from VirusTotal, by leveraging the Private API system. This framework automatically downloads recent samples, which triggered an alert on the users YARA notification feed.",
-    "stargazers_count": 120,
-    "forks_count": 27,
+    "stargazers_count": 121,
+    "forks_count": 26,
     "html_url": "https://github.com/CrowdStrike/CrowdFMS",
     "language": "Python"
   },
@@ -91,7 +91,7 @@
     "name": "gotel",
     "description": "GoTel - Scheduled job monitoring",
     "stargazers_count": 36,
-    "forks_count": 11,
+    "forks_count": 12,
     "html_url": "https://github.com/CrowdStrike/gotel",
     "language": "Go"
   },
@@ -122,7 +122,7 @@
   {
     "name": "cs-bro",
     "description": "Bro scripts written by CrowdStrike Services",
-    "stargazers_count": 144,
+    "stargazers_count": 145,
     "forks_count": 46,
     "html_url": "https://github.com/CrowdStrike/cs-bro",
     "language": "Zeek"
@@ -130,8 +130,8 @@
   {
     "name": "Forensics",
     "description": "Scripts and code referenced in CrowdStrike blog posts",
-    "stargazers_count": 310,
-    "forks_count": 77,
+    "stargazers_count": 316,
+    "forks_count": 78,
     "html_url": "https://github.com/CrowdStrike/Forensics",
     "language": "Python"
   },
@@ -154,7 +154,7 @@
   {
     "name": "chopshop",
     "description": "Mitre chopshop network decoder framework",
-    "stargazers_count": 29,
+    "stargazers_count": 30,
     "forks_count": 6,
     "html_url": "https://github.com/CrowdStrike/chopshop",
     "language": "Python"
@@ -202,7 +202,7 @@
   {
     "name": "travel-laptop",
     "description": "Auxiliary documentation and scripts around \"A Reasonably Safe Travel Burner Laptop\"",
-    "stargazers_count": 219,
+    "stargazers_count": 220,
     "forks_count": 24,
     "html_url": "https://github.com/CrowdStrike/travel-laptop",
     "language": "C++"
@@ -210,7 +210,7 @@
   {
     "name": "falcon-orchestrator",
     "description": "CrowdStrike Falcon Orchestrator provides automated workflow and response capabilities",
-    "stargazers_count": 174,
+    "stargazers_count": 179,
     "forks_count": 57,
     "html_url": "https://github.com/CrowdStrike/falcon-orchestrator",
     "language": "JavaScript"
@@ -291,7 +291,7 @@
     "name": "NotPetyaDecryptor",
     "description": null,
     "stargazers_count": 9,
-    "forks_count": 4,
+    "forks_count": 5,
     "html_url": "https://github.com/CrowdStrike/NotPetyaDecryptor",
     "language": "Python"
   },
@@ -482,8 +482,8 @@
   {
     "name": "automactc",
     "description": "AutoMacTC: Automated Mac Forensic Triage Collector",
-    "stargazers_count": 433,
-    "forks_count": 66,
+    "stargazers_count": 449,
+    "forks_count": 69,
     "html_url": "https://github.com/CrowdStrike/automactc",
     "language": "Python"
   },
@@ -578,8 +578,8 @@
   {
     "name": "monorepo-next",
     "description": "Detach monorepo packages from normal linking",
-    "stargazers_count": 9,
-    "forks_count": 7,
+    "stargazers_count": 11,
+    "forks_count": 8,
     "html_url": "https://github.com/CrowdStrike/monorepo-next",
     "language": "JavaScript"
   },
@@ -594,7 +594,7 @@
   {
     "name": "faltest",
     "description": "A different take on WebDriver browser testing",
-    "stargazers_count": 25,
+    "stargazers_count": 26,
     "forks_count": 10,
     "html_url": "https://github.com/CrowdStrike/faltest",
     "language": "JavaScript"
@@ -634,7 +634,7 @@
   {
     "name": "apbf",
     "description": "Go package implementing Age-Partitioned Bloom Filters (APBF)",
-    "stargazers_count": 17,
+    "stargazers_count": 16,
     "forks_count": 4,
     "html_url": "https://github.com/CrowdStrike/apbf",
     "language": "Go"
@@ -642,8 +642,8 @@
   {
     "name": "Cloud-AWS",
     "description": "A collection of projects supporting AWS Integration",
-    "stargazers_count": 79,
-    "forks_count": 53,
+    "stargazers_count": 90,
+    "forks_count": 65,
     "html_url": "https://github.com/CrowdStrike/Cloud-AWS",
     "language": "Python"
   },
@@ -658,16 +658,16 @@
   {
     "name": "community",
     "description": "CrowdStrike's Open Source Policy & Contribution Guide ",
-    "stargazers_count": 16,
-    "forks_count": 10,
+    "stargazers_count": 17,
+    "forks_count": 11,
     "html_url": "https://github.com/CrowdStrike/community",
     "language": "HTML"
   },
   {
     "name": "Dockerfiles",
     "description": "Automation to help create container images pre-loaded with the CrowdStrike Falcon sensor.",
-    "stargazers_count": 26,
-    "forks_count": 24,
+    "stargazers_count": 29,
+    "forks_count": 23,
     "html_url": "https://github.com/CrowdStrike/Dockerfiles",
     "language": "Shell"
   },
@@ -675,14 +675,14 @@
     "name": "Cloud-Azure",
     "description": "Discover for Cloud and Containers Azure",
     "stargazers_count": 14,
-    "forks_count": 15,
+    "forks_count": 17,
     "html_url": "https://github.com/CrowdStrike/Cloud-Azure",
     "language": "HCL"
   },
   {
     "name": "detection-container",
     "description": null,
-    "stargazers_count": 20,
+    "stargazers_count": 21,
     "forks_count": 18,
     "html_url": "https://github.com/CrowdStrike/detection-container",
     "language": "PHP"
@@ -690,16 +690,16 @@
   {
     "name": "falcon-scripts",
     "description": "Scripts to install and configure Falcon Sensor",
-    "stargazers_count": 26,
-    "forks_count": 23,
+    "stargazers_count": 32,
+    "forks_count": 41,
     "html_url": "https://github.com/CrowdStrike/falcon-scripts",
-    "language": "Shell"
+    "language": "PowerShell"
   },
   {
     "name": "ansible_collection_falcon",
     "description": "Install and configure CrowdStrike's Falcon sensor via Ansible.",
-    "stargazers_count": 42,
-    "forks_count": 38,
+    "stargazers_count": 46,
+    "forks_count": 43,
     "html_url": "https://github.com/CrowdStrike/ansible_collection_falcon",
     "language": "Shell"
   },
@@ -714,8 +714,8 @@
   {
     "name": "psfalcon",
     "description": "PowerShell for CrowdStrike's OAuth2 APIs",
-    "stargazers_count": 196,
-    "forks_count": 36,
+    "stargazers_count": 223,
+    "forks_count": 39,
     "html_url": "https://github.com/CrowdStrike/psfalcon",
     "language": "PowerShell"
   },
@@ -730,8 +730,8 @@
   {
     "name": "falconpy",
     "description": "The CrowdStrike Falcon SDK for Python",
-    "stargazers_count": 165,
-    "forks_count": 59,
+    "stargazers_count": 197,
+    "forks_count": 76,
     "html_url": "https://github.com/CrowdStrike/falconpy",
     "language": "Python"
   },
@@ -739,7 +739,7 @@
     "name": "broccoli-test-helper",
     "description": "Test helpers for BroccoliPlugins that make testing build and rebuild behavior dead simple and expect diff friendly.",
     "stargazers_count": 0,
-    "forks_count": 1,
+    "forks_count": 2,
     "html_url": "https://github.com/CrowdStrike/broccoli-test-helper",
     "language": null
   },
@@ -778,15 +778,15 @@
   {
     "name": "CRT",
     "description": "Contact: CRT@crowdstrike.com",
-    "stargazers_count": 587,
-    "forks_count": 116,
+    "stargazers_count": 610,
+    "forks_count": 120,
     "html_url": "https://github.com/CrowdStrike/CRT",
     "language": "PowerShell"
   },
   {
     "name": "falcon-operator",
     "description": null,
-    "stargazers_count": 20,
+    "stargazers_count": 26,
     "forks_count": 15,
     "html_url": "https://github.com/CrowdStrike/falcon-operator",
     "language": "Go"
@@ -794,16 +794,16 @@
   {
     "name": "falcon-helm",
     "description": "Helm Charts for running CrowdStrike Falcon with Kubernetes",
-    "stargazers_count": 38,
-    "forks_count": 32,
+    "stargazers_count": 42,
+    "forks_count": 34,
     "html_url": "https://github.com/CrowdStrike/falcon-helm",
     "language": "Smarty"
   },
   {
     "name": "gofalcon",
     "description": "Golang-based SDK to CrowdStrike's APIs",
-    "stargazers_count": 30,
-    "forks_count": 20,
+    "stargazers_count": 33,
+    "forks_count": 24,
     "html_url": "https://github.com/CrowdStrike/gofalcon",
     "language": "Go"
   },
@@ -819,7 +819,7 @@
     "name": "bpfmon-example",
     "description": "proof-of-concept example of using eBPF to Monitor for eBPF Map tampering",
     "stargazers_count": 9,
-    "forks_count": 4,
+    "forks_count": 6,
     "html_url": "https://github.com/CrowdStrike/bpfmon-example",
     "language": "C"
   },
@@ -834,8 +834,8 @@
   {
     "name": "container-image-scan",
     "description": "Code to scan a container with CrowdStrike and return response codes indicating pass/fail status.",
-    "stargazers_count": 17,
-    "forks_count": 15,
+    "stargazers_count": 20,
+    "forks_count": 19,
     "html_url": "https://github.com/CrowdStrike/container-image-scan",
     "language": "Python"
   },
@@ -866,8 +866,8 @@
   {
     "name": "container-image-scan-action",
     "description": "CrowdStrike Container Image Scan Github Action",
-    "stargazers_count": 9,
-    "forks_count": 6,
+    "stargazers_count": 12,
+    "forks_count": 5,
     "html_url": "https://github.com/CrowdStrike/container-image-scan-action",
     "language": "Shell"
   },
@@ -875,30 +875,30 @@
     "name": "zscaler-FalconX-integration",
     "description": "This is the integration to feed Falcon X IOC data into zscaler's platform",
     "stargazers_count": 4,
-    "forks_count": 8,
+    "forks_count": 9,
     "html_url": "https://github.com/CrowdStrike/zscaler-FalconX-integration",
     "language": "Python"
   },
   {
     "name": "falcon-integration-gateway",
     "description": "Falcon Integration Gateway (FIG)",
-    "stargazers_count": 13,
-    "forks_count": 11,
+    "stargazers_count": 12,
+    "forks_count": 13,
     "html_url": "https://github.com/CrowdStrike/falcon-integration-gateway",
     "language": "Python"
   },
   {
     "name": "Cloud-Benchmark",
     "description": "Cloud deployment size calculation utilities",
-    "stargazers_count": 9,
-    "forks_count": 9,
+    "stargazers_count": 10,
+    "forks_count": 10,
     "html_url": "https://github.com/CrowdStrike/Cloud-Benchmark",
     "language": "Python"
   },
   {
     "name": "Cloud-GCP",
     "description": "A collection of projects supporting GCP integration",
-    "stargazers_count": 2,
+    "stargazers_count": 3,
     "forks_count": 5,
     "html_url": "https://github.com/CrowdStrike/Cloud-GCP",
     "language": "HCL"
@@ -906,8 +906,8 @@
   {
     "name": "FDR",
     "description": "Falcon Data Replicator",
-    "stargazers_count": 20,
-    "forks_count": 9,
+    "stargazers_count": 21,
+    "forks_count": 13,
     "html_url": "https://github.com/CrowdStrike/FDR",
     "language": "Python"
   },
@@ -915,7 +915,7 @@
     "name": "ember-url-hash-polyfill",
     "description": "Support for in/inter page linking / scrolling with hashes in EmberJS",
     "stargazers_count": 13,
-    "forks_count": 2,
+    "forks_count": 4,
     "html_url": "https://github.com/CrowdStrike/ember-url-hash-polyfill",
     "language": "TypeScript"
   },
@@ -930,7 +930,7 @@
   {
     "name": "helpful-links",
     "description": "List of helpful publicly available CrowdStrike material.",
-    "stargazers_count": 3,
+    "stargazers_count": 5,
     "forks_count": 3,
     "html_url": "https://github.com/CrowdStrike/helpful-links",
     "language": null
@@ -946,15 +946,15 @@
   {
     "name": "image-scan-example",
     "description": null,
-    "stargazers_count": 2,
-    "forks_count": 10,
+    "stargazers_count": 3,
+    "forks_count": 12,
     "html_url": "https://github.com/CrowdStrike/image-scan-example",
     "language": "HCL"
   },
   {
     "name": "xwf-yara-scanner",
     "description": null,
-    "stargazers_count": 78,
+    "stargazers_count": 79,
     "forks_count": 15,
     "html_url": "https://github.com/CrowdStrike/xwf-yara-scanner",
     "language": "C"
@@ -962,31 +962,31 @@
   {
     "name": "SuperMem",
     "description": "A python script developed to process Windows memory images based on triage type.",
-    "stargazers_count": 191,
-    "forks_count": 36,
+    "stargazers_count": 245,
+    "forks_count": 40,
     "html_url": "https://github.com/CrowdStrike/SuperMem",
     "language": "Python"
   },
   {
     "name": "caracara",
     "description": "Developer enhancements (DX) for FalconPy, the CrowdStrike Python SDK",
-    "stargazers_count": 13,
-    "forks_count": 6,
+    "stargazers_count": 23,
+    "forks_count": 8,
     "html_url": "https://github.com/CrowdStrike/caracara",
     "language": "Python"
   },
   {
     "name": "ember-aria",
     "description": "ARIA utilities for helping create some of the more complex ARIA design patterns. Follows https://www.w3.org/TR/wai-aria-practices/",
-    "stargazers_count": 14,
-    "forks_count": 4,
+    "stargazers_count": 18,
+    "forks_count": 5,
     "html_url": "https://github.com/CrowdStrike/ember-aria",
     "language": "TypeScript"
   },
   {
     "name": "tailwind-toucan-base",
     "description": "Base Tailwind config for the Toucan design system.",
-    "stargazers_count": 9,
+    "stargazers_count": 11,
     "forks_count": 4,
     "html_url": "https://github.com/CrowdStrike/tailwind-toucan-base",
     "language": "JavaScript"
@@ -994,7 +994,7 @@
   {
     "name": "lzmadiffpatch",
     "description": "Tools to make and apply binary diffs, based on LZMA compression.",
-    "stargazers_count": 0,
+    "stargazers_count": 1,
     "forks_count": 1,
     "html_url": "https://github.com/CrowdStrike/lzmadiffpatch",
     "language": "Python"
@@ -1018,8 +1018,8 @@
   {
     "name": "HEC-Log-Shipper",
     "description": "This repository contains examples of code used to send data to Humio instances",
-    "stargazers_count": 1,
-    "forks_count": 4,
+    "stargazers_count": 2,
+    "forks_count": 5,
     "html_url": "https://github.com/CrowdStrike/HEC-Log-Shipper",
     "language": "Python"
   },
@@ -1035,7 +1035,7 @@
     "name": "CrowdStrike-Devices-Humio-Package-Integration",
     "description": "This repository contains the consumer and shipper code driving data to the CrowdStrike Devices Humio Package",
     "stargazers_count": 0,
-    "forks_count": 2,
+    "forks_count": 4,
     "html_url": "https://github.com/CrowdStrike/CrowdStrike-Devices-Humio-Package-Integration",
     "language": "Python"
   },
@@ -1051,7 +1051,7 @@
     "name": "CrowdStrike-Spotlight-Humio-Package-Integration",
     "description": null,
     "stargazers_count": 0,
-    "forks_count": 2,
+    "forks_count": 4,
     "html_url": "https://github.com/CrowdStrike/CrowdStrike-Spotlight-Humio-Package-Integration",
     "language": "Python"
   },
@@ -1074,7 +1074,7 @@
   {
     "name": "terraform-nutanix-script",
     "description": null,
-    "stargazers_count": 0,
+    "stargazers_count": 1,
     "forks_count": 1,
     "html_url": "https://github.com/CrowdStrike/terraform-nutanix-script",
     "language": "HCL"
@@ -1083,17 +1083,17 @@
     "name": "integrations",
     "description": "Code behind integrations.crowdstrike.com",
     "stargazers_count": 0,
-    "forks_count": 3,
+    "forks_count": 4,
     "html_url": "https://github.com/CrowdStrike/integrations",
     "language": "HTML"
   },
   {
     "name": "ember-velcro",
     "description": "Ember Velcro sticks one element to another with Floating UI.",
-    "stargazers_count": 6,
-    "forks_count": 1,
+    "stargazers_count": 8,
+    "forks_count": 2,
     "html_url": "https://github.com/CrowdStrike/ember-velcro",
-    "language": "JavaScript"
+    "language": "TypeScript"
   },
   {
     "name": "omigo-data-analytics",
@@ -1104,25 +1104,25 @@
     "language": "Jupyter Notebook"
   },
   {
-    "name": "falconapictl",
+    "name": "falcon-cli",
     "description": null,
     "stargazers_count": 0,
-    "forks_count": 1,
-    "html_url": "https://github.com/CrowdStrike/falconapictl",
-    "language": null
+    "forks_count": 4,
+    "html_url": "https://github.com/CrowdStrike/falcon-cli",
+    "language": "Go"
   },
   {
     "name": "CAST",
     "description": "CrowdStrike Archive Scan Tool",
-    "stargazers_count": 66,
-    "forks_count": 17,
+    "stargazers_count": 71,
+    "forks_count": 18,
     "html_url": "https://github.com/CrowdStrike/CAST",
     "language": "PowerShell"
   },
   {
     "name": "falconjs",
     "description": "CrowdStrike Falcon API JS library for the browser and Node",
-    "stargazers_count": 7,
+    "stargazers_count": 9,
     "forks_count": 3,
     "html_url": "https://github.com/CrowdStrike/falconjs",
     "language": "TypeScript"
@@ -1131,7 +1131,7 @@
     "name": "ivan",
     "description": null,
     "stargazers_count": 1,
-    "forks_count": 2,
+    "forks_count": 3,
     "html_url": "https://github.com/CrowdStrike/ivan",
     "language": null
   },
@@ -1178,8 +1178,8 @@
   {
     "name": "puppet-falcon",
     "description": null,
-    "stargazers_count": 2,
-    "forks_count": 5,
+    "stargazers_count": 3,
+    "forks_count": 6,
     "html_url": "https://github.com/CrowdStrike/puppet-falcon",
     "language": "Ruby"
   },
@@ -1194,15 +1194,15 @@
   {
     "name": "MISP-tools",
     "description": "Import CrowdStrike Threat Intelligence into your instance of MISP",
-    "stargazers_count": 4,
-    "forks_count": 0,
+    "stargazers_count": 13,
+    "forks_count": 5,
     "html_url": "https://github.com/CrowdStrike/MISP-tools",
     "language": "Python"
   },
   {
     "name": "falcon-linux-install-bash",
     "description": null,
-    "stargazers_count": 0,
+    "stargazers_count": 1,
     "forks_count": 1,
     "html_url": "https://github.com/CrowdStrike/falcon-linux-install-bash",
     "language": "Shell"
@@ -1210,8 +1210,8 @@
   {
     "name": "csproto",
     "description": "CrowdStrike's Protocol Buffers library",
-    "stargazers_count": 79,
-    "forks_count": 6,
+    "stargazers_count": 96,
+    "forks_count": 9,
     "html_url": "https://github.com/CrowdStrike/csproto",
     "language": "Go"
   },
@@ -1224,6 +1224,14 @@
     "language": null
   },
   {
+    "name": "devdays",
+    "description": null,
+    "stargazers_count": 3,
+    "forks_count": 1,
+    "html_url": "https://github.com/CrowdStrike/devdays",
+    "language": "Shell"
+  },
+  {
     "name": "ember-mobiledoc-editor",
     "description": null,
     "stargazers_count": 0,
@@ -1234,7 +1242,7 @@
   {
     "name": "ember-toucan-styles",
     "description": "Ember wrapper, CSS, and JS utilities for working with the Toucan design system",
-    "stargazers_count": 0,
+    "stargazers_count": 3,
     "forks_count": 0,
     "html_url": "https://github.com/CrowdStrike/ember-toucan-styles",
     "language": "JavaScript"
@@ -1246,6 +1254,14 @@
     "forks_count": 0,
     "html_url": "https://github.com/CrowdStrike/node-chromedriver",
     "language": null
+  },
+  {
+    "name": "chef-falcon",
+    "description": "Install and configure CrowdStrike's Falcon sensor via Chef",
+    "stargazers_count": 1,
+    "forks_count": 2,
+    "html_url": "https://github.com/CrowdStrike/chef-falcon",
+    "language": "Ruby"
   },
   {
     "name": "go-metrics-sliding-window",
@@ -1274,8 +1290,8 @@
   {
     "name": "perseus",
     "description": "The hero we all need to defeat the kraken that is Go module dependency graphs",
-    "stargazers_count": 1,
-    "forks_count": 0,
+    "stargazers_count": 23,
+    "forks_count": 2,
     "html_url": "https://github.com/CrowdStrike/perseus",
     "language": "Go"
   },
@@ -1288,51 +1304,195 @@
     "language": "Go"
   },
   {
-    "name": "security-for-jenkins",
-    "description": "Know about vulnerabilities at build time with Jenkins.",
-    "stargazers_count": 2,
-    "forks_count": 0,
-    "html_url": "https://github.com/CrowdStrike/security-for-jenkins",
-    "language": "Java"
-  },
-  {
     "name": "falcon-query-assets",
     "description": "Welcome to the Falcon Query Assets GitHub page. ",
-    "stargazers_count": 25,
-    "forks_count": 4,
+    "stargazers_count": 51,
+    "forks_count": 7,
     "html_url": "https://github.com/CrowdStrike/falcon-query-assets",
     "language": null
   },
   {
     "name": "Identity-Protection",
     "description": null,
-    "stargazers_count": 3,
-    "forks_count": 1,
+    "stargazers_count": 6,
+    "forks_count": 5,
     "html_url": "https://github.com/CrowdStrike/Identity-Protection",
     "language": "PowerShell"
   },
   {
-    "name": "gqltools",
+    "name": "ember-headless-table",
     "description": null,
+    "stargazers_count": 17,
+    "forks_count": 3,
+    "html_url": "https://github.com/CrowdStrike/ember-headless-table",
+    "language": "TypeScript"
+  },
+  {
+    "name": "opensource.crowdstrike.com",
+    "description": null,
+    "stargazers_count": 3,
+    "forks_count": 2,
+    "html_url": "https://github.com/CrowdStrike/opensource.crowdstrike.com",
+    "language": "JavaScript"
+  },
+  {
+    "name": "gql",
+    "description": "Tools for managing graphql schema",
     "stargazers_count": 0,
-    "forks_count": 0,
-    "html_url": "https://github.com/CrowdStrike/gqltools",
+    "forks_count": 3,
+    "html_url": "https://github.com/CrowdStrike/gql",
     "language": "Go"
   },
   {
     "name": "ember-oss-docs",
     "description": "Library for sharing common components used in docs for OSS projects",
-    "stargazers_count": 0,
+    "stargazers_count": 1,
     "forks_count": 0,
     "html_url": "https://github.com/CrowdStrike/ember-oss-docs",
-    "language": "JavaScript"
+    "language": "TypeScript"
   },
   {
-    "name": "microsoft-edgedriver",
+    "name": "browser-webdriver-downloader",
     "description": "Install and wrap msedgedriver in Node.js",
     "stargazers_count": 0,
     "forks_count": 0,
-    "html_url": "https://github.com/CrowdStrike/microsoft-edgedriver",
+    "html_url": "https://github.com/CrowdStrike/browser-webdriver-downloader",
     "language": "JavaScript"
+  },
+  {
+    "name": "cloud-aws-eks-pov",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "html_url": "https://github.com/CrowdStrike/cloud-aws-eks-pov",
+    "language": "Shell"
+  },
+  {
+    "name": "falcon-ruby",
+    "description": "A Shiny Ruby SDK of our Falcon API",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "html_url": "https://github.com/CrowdStrike/falcon-ruby",
+    "language": "Ruby"
+  },
+  {
+    "name": "terraform-modules",
+    "description": null,
+    "stargazers_count": 2,
+    "forks_count": 2,
+    "html_url": "https://github.com/CrowdStrike/terraform-modules",
+    "language": "HCL"
+  },
+  {
+    "name": "cloud-pov",
+    "description": null,
+    "stargazers_count": 2,
+    "forks_count": 3,
+    "html_url": "https://github.com/CrowdStrike/cloud-pov",
+    "language": "HCL"
+  },
+  {
+    "name": "aws-verified-access",
+    "description": "Integration details between CrowdStrike Falcon Zero Trust Assessments (ZTA) and AWS Verified Access",
+    "stargazers_count": 0,
+    "forks_count": 3,
+    "html_url": "https://github.com/CrowdStrike/aws-verified-access",
+    "language": null
+  },
+  {
+    "name": "chronicle-intel-bridge",
+    "description": "CrowdStrike to Chronicle Intel Bridge",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "html_url": "https://github.com/CrowdStrike/chronicle-intel-bridge",
+    "language": "Python"
+  },
+  {
+    "name": "aws-security-lake",
+    "description": "Integration guide for CrowdStrike and Amazon Security Lake",
+    "stargazers_count": 1,
+    "forks_count": 2,
+    "html_url": "https://github.com/CrowdStrike/aws-security-lake",
+    "language": "Shell"
+  },
+  {
+    "name": "AWS-Cloudtrail-Falcon-Logscale-Lambda-Integration",
+    "description": "A SNS triggered Python AWS Lambda function to send AWS CloudTrail stream events to Falcon LogScale",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "html_url": "https://github.com/CrowdStrike/AWS-Cloudtrail-Falcon-Logscale-Lambda-Integration",
+    "language": "Python"
+  },
+  {
+    "name": "AWS-Kinesis-Falcon-Logscale-Lambda-Integration",
+    "description": "A Python AWS Lambda function to send AWS Kinesis stream events to Falcon LogScale",
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "html_url": "https://github.com/CrowdStrike/AWS-Kinesis-Falcon-Logscale-Lambda-Integration",
+    "language": "Python"
+  },
+  {
+    "name": "GCP-AuditLog-Falcon-LogScale-Function-Integration",
+    "description": "Using GCP function to send Audit-logs to LogScale via Pub/Sub main.py",
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "html_url": "https://github.com/CrowdStrike/GCP-AuditLog-Falcon-LogScale-Function-Integration",
+    "language": "Python"
+  },
+  {
+    "name": "GCP-CloudStorage-Falcon-LogScale-Function-Integration",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "html_url": "https://github.com/CrowdStrike/GCP-CloudStorage-Falcon-LogScale-Function-Integration",
+    "language": "Python"
+  },
+  {
+    "name": "Falcon-Toolkit",
+    "description": "Unleash the power of the Falcon Platform at the CLI",
+    "stargazers_count": 58,
+    "forks_count": 7,
+    "html_url": "https://github.com/CrowdStrike/Falcon-Toolkit",
+    "language": "Python"
+  },
+  {
+    "name": "OWASSRF",
+    "description": null,
+    "stargazers_count": 12,
+    "forks_count": 2,
+    "html_url": "https://github.com/CrowdStrike/OWASSRF",
+    "language": "PowerShell"
+  },
+  {
+    "name": "AWS-Control-Tower-Discover",
+    "description": "Discover templates for Control Tower",
+    "stargazers_count": 0,
+    "forks_count": 1,
+    "html_url": "https://github.com/CrowdStrike/AWS-Control-Tower-Discover",
+    "language": null
+  },
+  {
+    "name": "AWS-Control-Tower-Horizon",
+    "description": "Control Tower templates for Horizon",
+    "stargazers_count": 0,
+    "forks_count": 1,
+    "html_url": "https://github.com/CrowdStrike/AWS-Control-Tower-Horizon",
+    "language": null
+  },
+  {
+    "name": "ember-headless-form",
+    "description": null,
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "html_url": "https://github.com/CrowdStrike/ember-headless-form",
+    "language": "TypeScript"
+  },
+  {
+    "name": "Container-Security",
+    "description": null,
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "html_url": "https://github.com/CrowdStrike/Container-Security",
+    "language": null
   }
 ]
