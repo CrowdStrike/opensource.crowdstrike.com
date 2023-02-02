@@ -1,9 +1,9 @@
 import '@glint/environment-ember-loose';
 import '@glint/environment-ember-template-imports';
+
 // Types from libraries
 // import "ember-page-title/glint";
 import type EmberOssDocs from '@crowdstrike/ember-oss-docs/template-registry';
-
 import type { ComponentLike, HelperLike, ModifierLike } from '@glint/template';
 import type Featured from 'oss/components/featured';
 import type { GitHubInfo } from 'oss/components/git-hub-info';
