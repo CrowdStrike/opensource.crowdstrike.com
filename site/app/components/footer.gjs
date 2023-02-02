@@ -25,7 +25,7 @@ export const Footer = <template>
         </ExternalLink>
 
         <div class="md:justify-self-center text-body-and-labels type-xs">
-          <span class="px-2">Copyright &copy; 2022</span>
+          <span class="px-2">Copyright &copy; 2023</span>
           <span>|</span>
           <ExternalLink @href="https://www.crowdstrike.com/contact-us/">Contact Us</ExternalLink>
           <span>|</span>
