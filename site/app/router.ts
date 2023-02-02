@@ -1,5 +1,6 @@
-import { addDocfyRoutes } from '@docfy/ember';
 import EmberRouter from '@embroider/router';
+
+import { addDocfyRoutes } from '@docfy/ember';
 import { withHashSupport } from 'ember-url-hash-polyfill';
 import config from 'oss/config/environment';
 

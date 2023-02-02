@@ -10,7 +10,7 @@
         open source
       </:title>
       <:links>
-        <Toucan::Link @variant="quiet" class=""@href="/projects">
+        <Toucan::Link @variant="quiet" class="" @href="/projects">
           <span class="type-lg-medium">Projects</span>
         </Toucan::Link>
 
@@ -18,8 +18,12 @@
           <span class="type-lg-medium">Documentation</span>
         </Toucan::Link>
 
-        {{!-- Do we need more breakpoints? can tailwind do on the fly breakpoints --}}
-        <Toucan::Link @variant="quiet" @href="/docs/open-source-policy" class="hidden xs:inline-flex">
+        {{! Do we need more breakpoints? can tailwind do on the fly breakpoints }}
+        <Toucan::Link
+          @variant="quiet"
+          @href="/docs/open-source-policy"
+          class="hidden xs:inline-flex"
+        >
           <span class="type-lg-medium">Policies</span>
         </Toucan::Link>
 
@@ -36,4 +40,3 @@
     <Footer />
   </:footer>
 </App>
-

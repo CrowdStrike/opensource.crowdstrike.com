@@ -22,7 +22,7 @@ const errorToString = (error: Error | unknown) => `${error || defaultError}`;
 
 export default class Search extends Component {
   @tracked projects = [];
-  @tracked filterTerm: string = '';
+  @tracked filterTerm = '';
   @tracked filterLanguages = new Set<string>();
 
   @use projectData = RemoteData<Project[]>(() => '/projects.json');
