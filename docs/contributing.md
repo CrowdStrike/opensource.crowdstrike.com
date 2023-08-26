@@ -3,7 +3,7 @@ title: Contributing
 description: Guidance for Contributing to CrowdStrike Open Source Projects
 ---
 
-# Welcome!
+# Welcomeeeeee!
 Welcome and thank you for your interest in contributing to a CrowdStrike project! We recognize contributing to a project is no small feat! The guidance here aspires to help onboard new community members into how CrowdStrike-led projects tend to operate, and by extension, make the contribution process easier.
 
 ## How do I make a contribution?
