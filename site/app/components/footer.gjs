@@ -33,7 +33,7 @@ export const Footer = <template>
           <span>|</span>
           <ExternalLink @href="https://www.crowdstrike.com/cookie-notice/">Cookies</ExternalLink>
           <span>|</span>
-          <ExternalLink @href="https://privacyportal.onetrust.com/ui/#/preferences/multipage/login/e5019602-7124-4242-8f7c-d1571d0c467d%20">Your Privacy Choices <img src="/privacyoptions.svg" alt="Your Privacy Choices" width="18px" height="18px" style="display: inline"/></ExternalLink>
+          <ExternalLink @href="https://privacyportal.onetrust.com/ui/#/preferences/multipage/login/e5019602-7124-4242-8f7c-d1571d0c467d%20">Your Privacy Choices <img src="/privacyoptions.svg" alt="Your Privacy Choices" width="18px" height="18px" class="inline" /></ExternalLink>
           <span>|</span>
           <ExternalLink @href="https://www.crowdstrike.com/website-terms-of-use/">Terms of Use</ExternalLink>
         </div>
